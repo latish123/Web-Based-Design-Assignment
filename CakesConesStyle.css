@@ -1,0 +1,324 @@
+*{
+	margin:0px;
+	padding: 0px;
+	max-width: 100%;
+	overflow-x: hidden;
+	color:black;
+	scroll-behavior: smooth;
+
+}
+body{
+		font-family: 'Vesper Libre', serif;
+		
+
+}
+header{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+nav{
+	/*border:2px solid blue;*/
+	width: 90%;
+	margin:10px auto;
+	text-align:right;
+}
+
+
+nav ul li {
+	display:inline-block;
+	
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	margin:0px 10px;
+	letter-spacing: 1px;
+
+}
+
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color:red;
+}
+
+.strapline-container{
+	widows: 50px;
+	border:2px solid blue;
+	height: 85%;
+	margin:auto auto;
+	text-align: center;
+	background-image: url("36813.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-strapline{
+	font-size: 100px;
+	text-transform: uppercase;
+	margin:30px 0px;
+	font-family: 'Arial', sans-serif;
+	color: black;
+
+
+
+}
+.second-strapline{
+	color: black;
+	font-size: 35px;
+	font-style: italic;
+	margin: 20px;
+	font-family: 'Arial';
+}
+
+.section-title{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 240%;
+	margin-bottom: 25px;
+
+}
+
+.about-section{
+	width: 100vw;
+	height: 90vh;
+}
+
+.about-container{
+	
+	width: 85%;
+	margin:0px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.left-box{
+
+	width: 45%;
+	text-align: justify;
+	line-height: 220%;
+	font-weight: bold;
+	letter-spacing: 0.8px;
+	color: black;
+
+	
+}
+.right-box{
+	
+	width: 40%;
+	margin-left:6%;
+	}
+
+	.top-row,.bottom-row{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.grid-image1{
+		width: 50%;
+		height: 170px;
+		border: 2px solid blue;
+		background-image: url("mohit.jpeg");
+		background-size: cover;
+		background-color: black; 
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.grid-image1:hover{
+		opacity: 0.7;
+	}
+	.grid-image2{
+		width: 50%;
+		height: 170px;
+		border: 2px solid blue;
+		background-image: url("omprakash.jpeg");
+		background-size: cover;
+		background-color: black; 
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.grid-image2:hover{
+		opacity: 0.7;
+	}
+	.grid-image3{
+		width: 50%;
+		height: 170px;
+		border: 2px solid blue;
+		background-image: url("pritesh.jpeg");
+		background-size: cover;
+		background-color: black; 
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.grid-image3:hover{
+		opacity: 0.7;
+	}
+	.grid-image4{
+		width: 50%;
+		height: 170px;
+		border: 2px solid blue;
+		background-image: url("latish.jpg");
+		background-size: cover;
+		background-color: black; 
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.grid-image4:hover{
+		opacity: 0.7;
+	}
+
+	.cone-section{
+		width: 100vw;
+	}
+
+	.image-container{
+		width: 100%;
+	}
+
+	.row-one{
+		width: 90%;
+		margin:10px auto;
+		text-align:center;
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	.grid-item{
+		border:2px solid blue;
+		width: 30%;
+		height: 310px;
+		
+		margin:15px;
+		background-image: url("proj1.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+
+	}
+	.grid-item:hover, .grid-item1:hover, .grid-item2:hover{ 
+		margin:0px;
+		border:4px solid blue;
+		width:40%;
+		height: 350px;
+		opacity: 0.5;
+	}
+
+	.grid-item1{
+		border:2px solid blue;
+		width: 30%;
+		height: 310px;
+		
+		margin:15px;
+		background-image: url("proj2.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+
+	}
+	.grid-item2{
+		border:2px solid blue;
+		width: 30%;
+		height: 310px;
+		
+		margin:15px;
+		background-image: url("proj3.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+
+	}
+
+	.store-section{
+		width: 100vw;
+	}
+
+	.stores-container{
+		/*border:2px solid blue;*/
+		width: 90%;
+		margin:0 auto;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.store-div{
+		/*border: 2px solid green;*/
+		width: 30%;
+		height: 240px;
+		margin:20px;
+		text-align:center;
+
+	}
+
+	h4{
+		font-size: 150%;
+
+	}
+
+	.contact-section{
+		
+		width: 100vw;
+		height: 50vh;
+		background-color: rgb(19, 169, 207);
+		text-align: center;
+		
+
+	}
+
+	.contact-title{
+		color: #ffffdd;
+		margin:25px 0;
+		font-family: 'Poppins', sans-serif;	
+		text-transform: uppercase;
+		font-size: 250%;
+	}
+
+
+	.email{
+		color: #ffffdd;
+		font-size: 130%;
+		text-decoration: underline;
+
+
+
+	}
+
+	.social-media-div{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 20vw;
+		margin:0 auto;
+
+
+	}
+
+	.social-media-icon{
+		margin:0 7.5px;
+	}
+
+	footer p{
+		color: rgb(255, 255, 255);
+	}
+
+	#loader {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		overflow: hidden;
+		background: #fff url('loading.webp') no-repeat center center;
+	}
